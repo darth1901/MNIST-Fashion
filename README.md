@@ -13,7 +13,7 @@ supported configurations:
         'batch_size':    {'values': [16, 32, 64]},\
         'weight_init':   {'values': ['random', 'Xavier']},\
         'activation':    {'values': ['sigmoid', 'tanh', 'relu']},\
-        'loss':          {'values': ['cross_entropy', 'mse']},\
+        'loss':          {'values': ['cross_entropy', 'mse']}
 # Weights and Biases Project Links:
 [**Final Project Report**](https://wandb.ai/parthd1901-bits-pilani/fashion-mnist-mlp/reports/CS6910-Assignment-1--VmlldzoxNzIzMzQ1Nw) | 
 [**W&B Sweep Runs Dashboard**](https://wandb.ai/parthd1901-bits-pilani/fashion-mnist-mlp/sweeps/oqtudxe7/runs/0j2rx6ht?nw=nwuserparthd1901)
