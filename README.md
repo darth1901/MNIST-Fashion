@@ -1,5 +1,5 @@
 # MNIST-Fashion
-Full implementation of an MLP trained on MNIST-Fashion. This includes an implementation of various optimisers (SGD, RMSProp, NAG, Adam and some variations). A hyperparameter sweep of 50 configurations was performed using W&B's sweep functionaility. Based on the sweep results, the best model configuration produced a 87% test accuracy.
+End-to-end implementation of an MLP trained on MNIST-Fashion. This includes an implementation of various optimisers (SGD, RMSProp, NAG, Adam and some variations). Backpropogation is also implemented. A hyperparameter sweep of 50 configurations was performed using W&B's sweep functionaility. Based on the sweep results, the best model configuration produced a 87% test accuracy.
 # To train a particular config:
 run the script: python train.py --wandb_project your_project_name --wandb_entity your_wandb_username\
 If you want to train a specific configuration, run (example script): python train.py -wp your_project -we your_username -d mnist -e 15 -o sgd -a relu\
